@@ -37,7 +37,7 @@ char grade;
 
      total =  ((absen*10)/14) + (tugas*0.2) + (uts*0.3) + (uas*0.4);
 
-    if(total > 80){
+    if(total >= 80){
         grade = 'A';
     }else if(total >= 71 && total <= 79){
         grade = 'B';
